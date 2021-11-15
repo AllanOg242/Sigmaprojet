@@ -64,3 +64,9 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+Php artisan make:controller nomDuController --moder=NomDuModel
+php artisan make:model NomModel --migration
+php artisan make:seeder NomSeeders
+Pour générer la base : php artisan migrate
+Pour remplir la base des fausses données :  php artisan db:seed
